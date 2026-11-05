@@ -78,9 +78,9 @@ class VectorService:
                  continue
              
              
-if __name__ == "__main__":
-    vector_service = VectorService()
-    vector_service.load_documents()
+# if __name__ == "__main__":
+#     vector_service = VectorService()
+#     vector_service.load_documents()
 #     retriever = vector_service.get_retriever()
 #     results = retriever.invoke("机器人怎么扫地")
 #     for result in results:
