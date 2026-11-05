@@ -1,0 +1,2 @@
+chat_model_name: glm-5
+embedding_model_name: text-embedding-v4
