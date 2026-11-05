@@ -1,0 +1,27 @@
+2026-11-05 15:25:28,606 - agent - INFO - vector_store.py:75 - 文件D:\Demo\Agent\data\故障排除.txt已添加到知识库
+2026-11-05 15:25:31,176 - agent - INFO - vector_store.py:75 - 文件D:\Demo\Agent\data\智能手机100问.pdf已添加到知识库
+2026-11-05 15:25:32,575 - agent - INFO - vector_store.py:75 - 文件D:\Demo\Agent\data\智能手机100问.txt已添加到知识库
+2026-11-05 15:25:34,363 - agent - INFO - vector_store.py:75 - 文件D:\Demo\Agent\data\智能手机100问2.txt已添加到知识库
+2026-11-05 15:25:35,664 - agent - INFO - vector_store.py:75 - 文件D:\Demo\Agent\data\维护保养.txt已添加到知识库
+2026-11-05 15:25:37,186 - agent - INFO - vector_store.py:75 - 文件D:\Demo\Agent\data\选购指南.txt已添加到知识库
+2026-11-05 15:26:51,804 - agent - INFO - middleware.py:34 - 即将调用模型，有3条消息。
+2026-11-05 15:26:51,805 - agent - DEBUG - middleware.py:35 - HumanMessage|扫地机器人怎么维修
+2026-11-05 15:26:56,911 - agent - INFO - middleware.py:17 - 执行工具: rag_summarize
+2026-11-05 15:26:56,912 - agent - INFO - middleware.py:18 - 工具调用参数: {'query': '扫地机器人维修'}
+2026-11-05 15:27:14,665 - agent - INFO - middleware.py:21 - 工具调用成功: rag_summarize
+2026-11-05 15:27:14,666 - agent - INFO - middleware.py:34 - 即将调用模型，有5条消息。
+2026-11-05 15:27:14,667 - agent - DEBUG - middleware.py:35 - ToolMessage|针对开机无反应，需检查电源适配器、电源线及电池安装，修复措施包括重新插拔、更换电源线或联系售后检测主板；针对开机后立即关机，需检查电量、机身温度及电池状况，修复措施包括充电、冷却或更换鼓包电池；针对拖布支架生锈，需使用除锈剂清理或更换不锈钢支架，并保持干燥；针对无法执行定时任务，需校准时间并确保网络连接与开机状态。
+2026-11-05 15:27:17,303 - agent - INFO - middleware.py:17 - 执行工具: rag_summarize
+2026-11-05 15:27:17,303 - agent - INFO - middleware.py:18 - 工具调用参数: {'query': '扫地机器人故障排查与维修指南'}
+2026-11-05 15:27:36,010 - agent - INFO - middleware.py:21 - 工具调用成功: rag_summarize
+2026-11-05 15:27:36,012 - agent - INFO - middleware.py:34 - 即将调用模型，有7条消息。
+2026-11-05 15:27:36,012 - agent - DEBUG - middleware.py:35 - ToolMessage|扫地机器人故障排查与维修指南如下：针对开机无反应，需检查电源适配器、电池安装及电源线，修复包括重新插拔、更换电源线或联系售后检测主板；针对开机自动关机，需检查电量、机身温度及电池状态，修复包括充电、冷却或更换原装电池；针对拖布支架生锈，需清理锈迹、更换不锈钢支架并保持干燥；针对无法定时清扫，需校准时间、确保网络连接及开机状态；针对指示灯闪烁，需对照说明书代码处理；针对风道异响，需清理杂物或联系售后检测电机。
+2026-11-05 15:28:09,115 - agent - INFO - middleware.py:34 - 即将调用模型，有5条消息。
+2026-11-05 15:28:09,115 - agent - DEBUG - middleware.py:35 - HumanMessage|你说的是智能手机还是扫地机器人
+2026-11-05 15:28:29,403 - agent - INFO - middleware.py:34 - 即将调用模型，有7条消息。
+2026-11-05 15:28:29,403 - agent - DEBUG - middleware.py:35 - HumanMessage|智能手机怎么保养
+2026-11-05 15:28:35,262 - agent - INFO - middleware.py:17 - 执行工具: rag_summarize
+2026-11-05 15:28:35,262 - agent - INFO - middleware.py:18 - 工具调用参数: {'query': '智能手机保养方法'}
+2026-11-05 15:28:54,088 - agent - INFO - middleware.py:21 - 工具调用成功: rag_summarize
+2026-11-05 15:28:54,090 - agent - INFO - middleware.py:34 - 即将调用模型，有9条消息。
+2026-11-05 15:28:54,091 - agent - DEBUG - middleware.py:35 - ToolMessage|智能手机保养方法如下：日常使用柔软无绒布轻擦手机，清洁前断开外设并关机，避免液体直接喷洒；防止机身弯折、挤压与跌落；不使用来源不明的系统工具，保持应用更新，定期核对并单独备份重要资料。电池充电需遵循官方说明，无需新机长时间激活，避免深度放电；在适宜温度范围内充电，避开烈日或封闭车内环境，充电时减少高负载任务，并启用优化充电功能。
