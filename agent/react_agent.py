@@ -6,8 +6,6 @@ from agent.tools.middleware import monitor_tool,log_before_model,report_prompt_s
 from dotenv import load_dotenv
 
 load_dotenv()
-
-
 class ReactAgent:
     def __init__(self):
         self.agent=create_agent(

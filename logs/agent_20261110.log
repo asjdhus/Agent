@@ -1,0 +1,11 @@
+2026-11-10 22:41:26,988 - agent - INFO - middleware.py:34 - 即将调用模型，有2条消息。
+2026-11-10 22:41:26,989 - agent - DEBUG - middleware.py:35 - HumanMessage|你好
+2026-11-10 22:43:27,156 - agent - INFO - middleware.py:34 - 即将调用模型，有4条消息。
+2026-11-10 22:43:27,157 - agent - DEBUG - middleware.py:35 - HumanMessage|我的用户ID是多少
+2026-11-10 22:43:29,151 - agent - INFO - middleware.py:17 - 执行工具: get_user_id
+2026-11-10 22:43:29,151 - agent - INFO - middleware.py:18 - 工具调用参数: {}
+2026-11-10 22:43:29,153 - agent - INFO - middleware.py:21 - 工具调用成功: get_user_id
+2026-11-10 22:43:29,154 - agent - INFO - middleware.py:34 - 即将调用模型，有6条消息。
+2026-11-10 22:43:29,155 - agent - DEBUG - middleware.py:35 - ToolMessage|1004
+2026-11-10 22:47:24,954 - agent - INFO - middleware.py:34 - 即将调用模型，有6条消息。
+2026-11-10 22:47:24,954 - agent - DEBUG - middleware.py:35 - HumanMessage|你还记得我和你说了什么吗
